@@ -158,7 +158,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script>
 		$.ajax({
-			url: "http://18.220.186.114/challenges/random",
+			url: "http://18.220.143.149/challenges/random",
 			method:"GET",
 			dataType:"json",
 			success: function(res){
@@ -167,7 +167,7 @@
 		})
 		
 		$.ajax({
-			url: "http://18.220.186.114/challenges/random",
+			url: "http://18.220.143.149/challenges/random",
 			method:"GET",
 			dataType:"json",
 			success: function(res){
@@ -176,7 +176,7 @@
 		})
 		
 		$.ajax({
-			url: "http://18.220.186.114/challenges/random",
+			url: "http://18.220.143.149/challenges/random",
 			method:"GET",
 			dataType:"json",
 			success: function(res){
@@ -185,7 +185,7 @@
 		})
 		
 		$.ajax({
-			url: "http://18.220.186.114/challenges/random",
+			url: "http://18.220.143.149/challenges/random",
 			method:"GET",
 			dataType:"json",
 			success: function(res){
@@ -194,7 +194,8 @@
 		})
 		
 		$.ajax({
-			url: "http://18.220.186.114/challenges/random",
+			crossOrigin: true,
+			url: "http://18.220.143.149/challenges/random",
 			method:"GET",
 			dataType:"json",
 			success: function(res){
